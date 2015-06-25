@@ -14,6 +14,7 @@
 	UIWebView* overWebView;
     NSURL* currentUrl;
     BOOL _injectedIframeBridge;
+    BOOL isAutoFadeIn;
 }
 
 @property (nonatomic, copy) NSString* callbackId;
